@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Schrittzähler.iml" filepath="$PROJECT_DIR$/.idea/Schrittzähler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Stepcounter/.idea/Stepcounter.iml" filepath="$PROJECT_DIR$/../Stepcounter/.idea/Stepcounter.iml" />
     </modules>
   </component>
 </project>
