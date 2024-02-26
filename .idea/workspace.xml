@@ -52,7 +52,7 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="schrittzähler" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="stepcounter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Schrittzähler" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -65,7 +65,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/schrittzähler.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\david\PycharmProjects\Schrittzähler\stepcounter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -76,7 +76,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.schrittzähler" />
+        <item itemvalue="Python.stepcounter" />
       </list>
     </recent_temporary>
   </component>
