@@ -10,7 +10,8 @@ class Schrittzähler:
         self.schritte += anzahl
 
     def gesamtzahl_der_schritte(self):
-        return f'{self.datum.strftime("%d.%m.%Y")}: {self.schritte} Schritte gegangen'
+        jetzt = datetime.now()
+        return f'{jetzt.strftime("%H:%M:%S")} - {self.datum.strftime("%d.%m.%Y")}: {self.schritte} Schritte gegangen'
 
     def daten_speichern(self, dateipfad='schrittzählerdaten.txt'):
         with open(dateipfad, 'a') as datei:
@@ -51,19 +52,21 @@ def benutzereingabe_programm_beenden():
 
 # Beispiel der Verwendung
 if __name__ == "__main__":
+    schrittzähler1 = Schrittzähler()
     beenden = False
 
     while not beenden:
-        # Ein Schrittzähler erstellen und Benutzereingabe für die gelaufenen Schritte abfragen
-        schrittzähler1 = Schrittzähler()
+        # Benutzereingabe für die gelaufenen Schritte abfragen
         neue_schritte = benutzereingabe_schritte()
-        schrittzähler1.schritte_hinzufügen(neue_schritte)
 
-        # Daten in die Datei schreiben
-        schrittzähler1.daten_speichern()
+        # Schritte hinzufügen
+        schrittzähler1.schritte_hinzufügen(neue_schritte)
 
         # Gesamtzahl der gelaufenen Schritte für den Tag anzeigen
         print(schrittzähler1.gesamtzahl_der_schritte())
+
+        # Daten in die Datei schreiben
+        schrittzähler1.daten_speichern()
 
         # Benutzereingabe, ob das Programm beendet werden soll
         beenden = benutzereingabe_programm_beenden()
