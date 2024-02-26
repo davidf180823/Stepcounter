@@ -1,17 +1,21 @@
-# Schrittzähler-Programm
+# Step Counter Program
 
-Dieses einfache Python-Programm ermöglicht es Benutzern, ihre täglichen Schritte zu verfolgen und die Gesamtanzahl der gelaufenen Schritte für jeden Tag in einer Textdatei zu speichern.
+This simple Python program allows users to track their daily steps and save the total number of steps taken for each day in a text file.
 
-## Funktionalitäten
+## Features
 
-- Eingabe von gelaufenen Schritten mit Uhrzeit
-- Anzeige der Gesamtanzahl der gelaufenen Schritte für den aktuellen Tag nach jeder Eingabe
-- Speichern der Schrittzählerdaten in einer Textdatei ('schrittzählerdaten.txt')
-- Laden von Schrittzählerdaten aus der Datei
+- Input of steps taken with timestamp
+- Display of the total number of steps taken for the current day after each input
+- Saving step counter data to a text file ('stepcounterdata.txt')
+- Loading step counter data from the file
 
-## Verwendung
+## Usage
 
-1. Führe das Programm aus.
-2. Gib die gelaufenen Schritte ein, wenn du dazu aufgefordert wirst.
-3. Die Gesamtanzahl der gelaufenen Schritte für den Tag wird angezeigt.
-4. Entscheide, ob du das Programm beenden möchtest. Wenn nicht, kannst du weitere Schritte hinzufügen.
+1. Run the program.
+2. Enter the number of steps walked when prompted.
+3. The total number of steps walked for the day will be displayed.
+4. Decide whether you want to end the program. If not, you can add more steps.
+
+## Python Version
+
+The version used during development and testing is Python 3.12
